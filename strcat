@@ -1,0 +1,4 @@
+it will append to end of \0.
+declare size array
+
+char[20]={"awi\0hello"};
