@@ -1,0 +1,15 @@
+
+String + integer
+
+#include <stdio.h>
+
+int main()
+{
+   int i;
+   char buf[12];
+
+   for (i = 0; i < 100; i++) {
+      snprintf(buf, 12, "pre_%d_suff", i); // puts string into buffer
+      printf("%s\n", buf); // outputs so you can see it
+   }
+}
