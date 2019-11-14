@@ -1,0 +1,4 @@
+sizeof buffer1 will give the correct size of the buffer, i.e. 17, opposed to the result of strlen(buffer1) which is just 8.
+
+sizeof
+strlen()
